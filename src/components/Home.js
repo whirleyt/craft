@@ -20,6 +20,6 @@ class Home extends Component {
     }
 }
 
-const mapStateToProps = ({ posts: { user, posts } }) => ({ user, posts })
+const mapStateToProps = ({ posts: { user, posts, favorites } }) => ({ user, posts, favorites })
 
 export default connect(mapStateToProps)(Home)
