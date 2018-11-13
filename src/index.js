@@ -7,6 +7,7 @@ import history from './history'
 import store from './store'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'semantic-ui-css/semantic.min.css';
 
 ReactDOM.render(<Provider store={store}>
     <Router history={history}>
