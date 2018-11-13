@@ -1,0 +1,26 @@
+#topnav ul {
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    border-style: solid;
+    border-color: #D3D3D3;
+    margin-top: 0px;
+}
+
+#topnav li {
+    text-decoration: none;
+    color: #57a2e4;
+    text-align: center;
+    padding: 12px 14px;
+    float: left;
+    font-size: 25px;
+}
+
+#topnav li :hover {
+    background-color: #57a2e4;
+    color: white;
+    padding: 12px;
+    border-radius: 7px;
+ 
+}
