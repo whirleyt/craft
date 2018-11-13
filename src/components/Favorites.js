@@ -6,13 +6,17 @@ class Favorites extends Component {
     render() {
         return (
             <div>
-                {this.props.favorites.map((post, index) => {
-                    return (
-                        <div key={index}>
-                            <Post post={post} posts={this.props.posts} isFavorite={true} />
-                        </div>
-                    )
-                })}
+                { !this.props.favorites[0] ?
+                     <h1>No favorites yet.</h1>
+                     :
+                    this.props.favorites.map((post, index) => {
+                        return (
+                            <div key={index}>
+                                <Post post={post} posts={this.props.posts} isFavorite={true} />
+                            </div>
+                        )
+                    })
+            }
             </div>
         );
     }

@@ -10,7 +10,7 @@ class Home extends Component {
                     { this.props.posts.data && this.props.posts.data.children.map((post, index) => {
                         return (
                             <div key={index}>
-                                <Post post={post} posts={this.props.posts} />
+                                <Post post={post} posts={this.props.posts}/>
                             </div>
                         )
                     })}
@@ -20,6 +20,6 @@ class Home extends Component {
     }
 }
 
-const mapStateToProps = ({ posts: { user, posts, favorites } }) => ({ user, posts, favorites })
+const mapStateToProps = ({ posts: { user, posts } }) => ({ user, posts })
 
 export default connect(mapStateToProps)(Home)
