@@ -69,4 +69,13 @@ img {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-top: 20px;
+    position: relative;
+}
+
+.pictureicon {
+    z-index: 2;
+    position: absolute;
+    left: 19%;
+    top: 21%;
+    margin: auto;
 }
