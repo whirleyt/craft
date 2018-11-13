@@ -24,3 +24,49 @@
     border-radius: 7px;
  
 }
+
+img {
+    height: 350px;
+    width: 500px; 
+  }
+
+.picture {
+    border:1px solid #000;
+    width: 65%;
+    height: 65%;
+}
+
+.title {
+    font-family: 'Arvo', serif;
+    font-size: 18px;
+    Line-height: 24px;
+    color: #000;
+   }
+
+   .information {
+    font-family: 'Swiss', serif;
+    font-size: 18px;
+    color: #999;
+    border-style: solid;
+    border-color: #D3D3D3;
+    border-width: 2px;
+    width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .noDecoration, a:link, a:visited {
+    text-decoration: none;
+}
+
+.post {
+    border-style: solid;
+    border-color: #D3D3D3;
+    border-width: 2px;
+    width: 600px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}

@@ -5,12 +5,12 @@ class Post extends Component {
     render() {
         const post = this.props.post
         return (
-            <div>
+          <div className="post" align="center">
                 <div>
-                    <img alt="" src={post.data.url} />
-                    <p>{post.data.title}</p>
-                    <div>
-                        <p> {post.data.author} {post.data.num_comments}</p>
+                    <img className="picture" alt="" src={post.data.url} />
+                    <p className="title">{post.data.title}</p>
+                    <div className="information" >
+                        <p>{post.data.author} {post.data.num_comments}</p>
                     </div>
                 </div>
             </div>
