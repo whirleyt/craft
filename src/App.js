@@ -11,6 +11,7 @@ class App extends Component {
 
   componentDidMount() {
     this.props.loadPosts()
+
   }
   render() {
     return (
@@ -23,6 +24,7 @@ class App extends Component {
     );
   }
 }
+
 
 const mapStateToProps = ({ posts: { user, posts } }) => ({ user, posts })
 
