@@ -78,4 +78,22 @@ img {
     left: 19%;
     top: 21%;
     margin: auto;
+    -webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
+    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;    
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes example {
+    from {left: 120px;}
+    to {left: 4000px;}
+}
+
+@keyframes example {
+    from {left: 120px;}
+    to {left: 400px;}
 }
