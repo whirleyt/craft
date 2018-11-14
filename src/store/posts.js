@@ -5,7 +5,6 @@ const ADD_FAVORITE = 'ADD_FAVORITE'
 const DELETE_FAVORITE = 'DELETE_FAVORITE'
 
 const initialState = {
-  user: { email: 'whirleyt@outlook.com', name: 'Tara Whirley' },
   posts: [],
   favorites: []
 }

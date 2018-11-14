@@ -20,5 +20,3 @@ ReactDOM.render(<Provider store={store}>
   </Provider>, document.getElementById('root'));
 
 serviceWorker.unregister();
-
-

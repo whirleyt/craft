@@ -11,7 +11,6 @@ class App extends Component {
 
   componentDidMount() {
     this.props.loadPosts()
-
   }
   render() {
     return (
@@ -21,7 +20,7 @@ class App extends Component {
           <Routes />
         </div>
       </Router>
-    );
+    )
   }
 }
 

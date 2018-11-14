@@ -7,8 +7,8 @@ class Favorites extends Component {
         return (
             <div>
                 { !this.props.favorites[0] ?
-                     <h1>No favorites yet.</h1>
-                     :
+                    <h1>No favorites yet.</h1>
+                    :
                     this.props.favorites.map((post, index) => {
                         return (
                             <div key={index}>
@@ -16,12 +16,12 @@ class Favorites extends Component {
                             </div>
                         )
                     })
-            }
+                }
             </div>
-        );
+        )
     }
 }
 
-const mapStateToProps = ({ posts: { user, posts, favorites } }) => ({ user, posts, favorites })
+const mapStateToProps = ({ posts: { posts, favorites } }) => ({ posts, favorites })
 
 export default connect(mapStateToProps)(Favorites)
