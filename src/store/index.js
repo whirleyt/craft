@@ -24,5 +24,3 @@ const store = createStore(persistedReducer, middleware)
 
 export default store
 export * from './posts'
-
-
